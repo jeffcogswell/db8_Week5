@@ -24,7 +24,48 @@ namespace PigLatin
 
 		public static bool StartsWithVowel(string word)
 		{
-			return true;
+			bool result = IsVowel(word[0]);
+			return result;
+		}
+
+		public static int NumberOfCons(string word)
+		{
+			int index = 0;
+
+			while (index < word.Length && IsVowel(word[index]) == false)
+			{
+				index++;
+			}
+
+			return index;
+		}
+
+		// Two methods for piglatinizing a word
+
+		public static string PigLatinVowels(string word)
+		{
+			return word + "yay";
+		}
+
+		public static string PigLatinCons(string word)
+		{
+			int cons = NumberOfCons(word);
+			string start = word.Substring(0, cons);
+			string newword = word + start + "ay";
+			newword = newword.Remove(0, cons);
+			return newword;
+		}
+
+		public static string PigLatinize(string word)
+		{
+			if (StartsWithVowel(word))
+			{
+				return PigLatinVowels(word);
+			}
+			else
+			{
+				return PigLatinCons(word);
+			}
 		}
 	}
 }
