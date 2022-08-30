@@ -12,4 +12,3 @@ else
 {
 	Console.WriteLine(Translator.PigLatinize(entry));
 }
-
