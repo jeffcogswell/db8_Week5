@@ -36,5 +36,23 @@ namespace ListDemo_Tests
 			List<int> actual = MyLists.RemoveLargest(values);
 			Assert.Equal(expected, actual);
 		}
+
+		// Just for demonstration purposes, let's try out Assert.Contains
+		[Fact]
+		public void TestContainsDemo()
+		{
+			List<int> mylist = new List<int>() { 5, 20, 6, 3 };
+			List<int> result = MyLists.RemoveLargest(mylist);
+
+			// Let's make sure 3 is still in the list
+			// What not to do, even though it feels like they should work:
+			//      Assert.True(result.Contains(3));
+			//      Assert.Equal(true, result.Contains(3));
+			// Because the list holds integers <int>, the contains will also need <int>
+			// The first parameter is what we expect to see in the list.
+			// The second parameter is the list we're looking in.
+			Assert.Contains<int>(3, result);
+		}
+
 	}
 }
