@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassReview", "ClassReview\ClassReview.csproj", "{AEAC7C3D-17CB-4ECB-BAD4-CB6941E150D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassReview", "ClassReview\ClassReview.csproj", "{AEAC7C3D-17CB-4ECB-BAD4-CB6941E150D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassReview_Tests", "ClassReview_Tests\ClassReview_Tests.csproj", "{37375183-29E0-441F-ADF8-4C60524885E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassReview_Tests", "ClassReview_Tests\ClassReview_Tests.csproj", "{37375183-29E0-441F-ADF8-4C60524885E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigLatin", "PigLatin\PigLatin.csproj", "{0EA472F8-C7BD-428D-8EB6-387077FB535A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PigLatin", "PigLatin\PigLatin.csproj", "{0EA472F8-C7BD-428D-8EB6-387077FB535A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigLatin_Tests", "PigLatin_Tests\PigLatin_Tests.csproj", "{EA091588-09FA-4D1D-A2D9-4DD4DEADB1B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PigLatin_Tests", "PigLatin_Tests\PigLatin_Tests.csproj", "{EA091588-09FA-4D1D-A2D9-4DD4DEADB1B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticePart1", "PracticePart1\PracticePart1.csproj", "{78E4BACC-8F8D-4C35-A854-FF96AE56687A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticePart1", "PracticePart1\PracticePart1.csproj", "{78E4BACC-8F8D-4C35-A854-FF96AE56687A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticePart1_Tests", "PracticePart1_Tests\PracticePart1_Tests.csproj", "{3B7720CD-9E15-4C98-8F63-B948DCBF0109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticePart1_Tests", "PracticePart1_Tests\PracticePart1_Tests.csproj", "{3B7720CD-9E15-4C98-8F63-B948DCBF0109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcApp", "CalcApp\CalcApp.csproj", "{512CDC14-9B70-4683-A3F5-2DCB60CCAA63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcApp", "CalcApp\CalcApp.csproj", "{512CDC14-9B70-4683-A3F5-2DCB60CCAA63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcApp_Tests", "CalcApp_Tests\CalcApp_Tests.csproj", "{F6158248-9390-412F-AC26-FEEC6C2D7F6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcApp_Tests", "CalcApp_Tests\CalcApp_Tests.csproj", "{F6158248-9390-412F-AC26-FEEC6C2D7F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamond", "Diamond\Diamond.csproj", "{777D9B03-14D9-433F-A582-10C74117268F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamond_Tests", "Diamond_Tests\Diamond_Tests.csproj", "{04C00608-3B48-4530-A4A0-39DE29AACCFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{F6158248-9390-412F-AC26-FEEC6C2D7F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6158248-9390-412F-AC26-FEEC6C2D7F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6158248-9390-412F-AC26-FEEC6C2D7F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777D9B03-14D9-433F-A582-10C74117268F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777D9B03-14D9-433F-A582-10C74117268F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777D9B03-14D9-433F-A582-10C74117268F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777D9B03-14D9-433F-A582-10C74117268F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C00608-3B48-4530-A4A0-39DE29AACCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C00608-3B48-4530-A4A0-39DE29AACCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C00608-3B48-4530-A4A0-39DE29AACCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C00608-3B48-4530-A4A0-39DE29AACCFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

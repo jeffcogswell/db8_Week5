@@ -35,7 +35,19 @@ namespace CalcApp
 		public List<int> FindFactors()
 		{
 			List<int> result = new List<int>();
+			for (int num = 1; num <= Number / 2; num++)
+			{
+				if (Number % num == 0)
+				{
+					result.Add(num);
+				}
+			}
+			result.Add(Number);
 			return result;
 		}
 	}
 }
+/*
+ *   12
+ *   1,2,3,4,6,12
+ */
